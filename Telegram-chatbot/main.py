@@ -47,7 +47,7 @@ async def welcome(message: types.Message):
     """
     This handler receives messages with `/start` or  `/help `command
     """
-    await message.reply("Hi\nI am Tele Bot!\Created by Bappy. How can i assist you?")
+    await message.reply("Hi\nI am Tele Bot!\Created by Atik. How can i assist you?")
 
 
 
@@ -85,4 +85,5 @@ async def chatgpt(message: types.Message):
 
 
 if __name__ == "__main__":
+
     executor.start_polling(dispatcher, skip_updates=False)
