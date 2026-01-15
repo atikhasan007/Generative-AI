@@ -21,7 +21,7 @@ async def command_start_handler(message: types.Message):
     """
     This handler receives messages with `/start` or  `/help `command
     """
-    await message.reply("Hi\nI am Echo Bot!\nPowered by Bappy.")
+    await message.reply("Hi\nI am Echo Bot!\nPowered by atik.")
 
 
 
@@ -35,3 +35,4 @@ async def echo(message: types.Message):
 
 if __name__ == "__main__":
     executor.start_polling(dp, skip_updates=True)
+
