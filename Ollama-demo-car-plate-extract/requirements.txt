@@ -1,0 +1,5 @@
+pillow
+langchain
+langchain-community
+langchain-ollama
+
